@@ -3,7 +3,7 @@ about_top_template = open('templates/about_top.html').read()
 about_content = open('content/about_index.html').read()
 
 about_html = about_top_template + about_content
-open('about.html', 'w+').write(about_html)
+open('docs/about.html', 'w+').write(about_html)
 
 
 #cat templates/about_top.html content/about_index.html > docs/about_index.html
